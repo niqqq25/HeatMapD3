@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heat-map-container {
+    display: inline-flex;
+    min-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heat-map {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: inline-block;
+}
+
+#description {
+    display: inline-block;
+}
+
+.cell:hover {
+    fill: red;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.tooltip--hidden {
+    display: none;
+}
